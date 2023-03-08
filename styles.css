@@ -1,4 +1,12 @@
+* {
+font-family: 'Fira Mono', monospace;
+}
+
+.logo {text-align: center;}
+
 .hero {
+    height: 100vh;
     display: flex;
     gap: 50px;
+    align-items: center;
 }
