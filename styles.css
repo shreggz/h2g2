@@ -2,23 +2,32 @@
 font-family: 'Fira Mono', monospace;
 }
 
-.logo {
-    text-align: center;
-    height: 15vh;
+body {
+    max-width: 600px;
+    margin: auto;
+    padding: 12px;
+    font-size: 16px;
 }
 
-.hero {
-    height: 85vh;
-    background-color: purple;
-    display: flex;
-    gap: 48px;
-    align-items: center;
-}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
 
-@media (max-width: 800px) {
-    .hero {
-        display: flex;
-        flex-direction: column;
-        gap: 8px; 
-    }
-}
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
