@@ -1,0 +1,61 @@
+body {
+    max-width: 1280px;
+    margin: auto;
+    font-family: "Courier New", monospace;
+}
+
+.header {
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    gap: 64px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+#dont-panic {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.entries {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sample-entries > h2 {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid black;
+    max-width: 200px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card > img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
