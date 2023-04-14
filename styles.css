@@ -42,15 +42,24 @@ body {
     padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
+.card-title {
+    word-wrap: 
+}
+
+
+
 .card > img {
     width: 200px;
     height: 200px;
+    border: 1px solid black;
+    padding: 24px;
     text-align: center;
+    object-fit: cover;
 }
 
 ul {
