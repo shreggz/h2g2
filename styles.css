@@ -9,23 +9,29 @@
 body {
     max-width: 1280px;
     margin: auto;
-    font-family: "Courier New", monospace;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 .header {
-    padding: 12px 24px 12px 24px;
-    display: flex;
-    justify-content: space-between;
+    padding: 32px;
+    text-align: center;
 }
 
 .hero {
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px 80px 24px;
     display: flex;
     gap: 64px;
 }
 
 .hero-text {
     max-width: 50%;
+}
+
+.hero-text > p {
+    font-size: 1.25rem;
 }
 
 #dont-panic {
