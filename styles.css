@@ -112,9 +112,22 @@ ul {
     padding: 12px 24px 48px 24px;
 }
 
+.entry-text {
+    max-width: 720px;
+    margin: auto;
+    padding: 12px 24px 48px 24px;
+}
+
+.page-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer {
     margin-top: auto;
-    text-align: right;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 12px;
 }
 
 @media (max-width: 960px) {
