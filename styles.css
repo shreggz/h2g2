@@ -2,7 +2,7 @@
 
 * {
     color: white;
-    background-color: rgb(21, 12, 27);
+    background-color: rgb(63, 35, 82);
     font-family: "Petrona", serif;
 }
 
@@ -76,9 +76,10 @@ li {
 }
 
 .card {
-    border: 1px solid black;
+    /*border: 1px solid green;*/
     width: 240px;
-    padding: 12px;
+    padding: 24px;
+    padding-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,6 +129,11 @@ ul {
     text-align: center;
     margin-top: 56px;
     margin-bottom: 12px;
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 @media (max-width: 960px) {
