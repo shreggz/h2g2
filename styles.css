@@ -3,7 +3,7 @@
 * {
     font-family: "Petrona", serif;
     background-color: #0A001C;
-    color: white;
+    color: #fafafa;
 }
 
 body {
@@ -21,7 +21,7 @@ h1 {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 12px 24px 48px 24px;
 }
@@ -79,7 +79,6 @@ li {
 }
 
 .card {
-    /*border: 1px solid green;*/
     width: 240px;
     padding: 24px;
     padding-top: 0px;
@@ -91,10 +90,9 @@ li {
 }
 
 .card > img {
-    background-color: white;
+    background-color: #fafafa;
     width: 240px;
     height: 240px;
-    border: 1px solid black;
     padding: 24px;
     text-align: center;
     object-fit: cover;
@@ -113,12 +111,31 @@ li {
 .entry-text {
     max-width: 720px;
     margin: auto;
-    padding: 12px 24px 48px 24px;
+    padding: 12px 24px 12px 24px;
+}
+
+.entry-text > h2 {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.entry-text > p {
+    font-size: 1.3rem;
+    line-height: 135%;
+}
+
+ol > li {
+    font-size: 1.3rem;
+    line-height: 135%;
 }
 
 .page-buttons {
     display: flex;
     justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 1.3rem;
 }
 
 .footer {
@@ -131,6 +148,34 @@ li {
 hr {
     margin-left: 0;
     margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #b7b71f;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f0f08f;
+    transition: 0.15s;
+}
+
+h3 {
+    color: #b7b71f;
+}
+
+.card:hover h3 {
+    color: #f0f08f;
+    transition: 0.15s;
+}
+
+button {
+    background-color: #b7b71f;
+    border: none;
+    color: #444444;
+    padding: 12px 16px;
+    font-size: 1.3rem;
 }
 
 @media (max-width: 960px) {
